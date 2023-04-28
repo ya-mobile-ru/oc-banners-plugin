@@ -1,0 +1,11 @@
+plugin:
+    name: 'yamobile.banners::lang.plugin.name'
+    description: 'yamobile.banners::lang.plugin.description'
+    author: Yamobile
+    icon: oc-icon-image
+    homepage: ''
+navigation:
+    slider-menu:
+        label: Слайдер
+        url: yamobile/banners/sliders
+        icon: icon-image
