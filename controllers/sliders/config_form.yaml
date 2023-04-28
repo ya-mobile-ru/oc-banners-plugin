@@ -1,0 +1,10 @@
+name: Sliders
+modelClass: Yamobile\Banners\Models\Slider
+form: $/yamobile/banners/models/slider/fields.yaml
+defaultRedirect: yamobile/banners/sliders
+create:
+    redirect: 'yamobile/banners/sliders/update/:id'
+    redirectClose: yamobile/banners/sliders
+update:
+    redirect: yamobile/banners/sliders
+    redirectClose: yamobile/banners/sliders

@@ -1,0 +1,5 @@
+title: Slider
+modelClass: Yamobile\Banners\Models\Slider
+nameFrom: name
+toolbar:
+    buttons: reorder_toolbar
