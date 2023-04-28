@@ -1,0 +1,29 @@
+fields:
+    id:
+        label: Id
+        span: auto
+        readOnly: 1
+        type: number
+    is_enabled:
+        label: 'Is enabled'
+        span: auto
+        default: 1
+        type: switch
+    name:
+        label: Name
+        span: auto
+        type: text
+    url:
+        label: Url
+        span: auto
+        type: text
+    photo_desktop:
+        label: 'Photo desktop'
+        mode: image
+        span: auto
+        type: mediafinder
+    photo_mobile:
+        label: 'Photo mobile'
+        span: auto
+        mode: image
+        type: mediafinder
