@@ -1,0 +1,27 @@
+columns:
+    id:
+        label: id
+        type: number
+    name:
+        label: name
+        type: text
+    photo_desktop:
+        label: 'yamobile.services::lang.services.image.label'
+        type: partial
+        path: $/yamobile/banners/partials/_column-photo.htm
+    photo_mobile:
+        label: 'yamobile.services::lang.services.image.label'
+        type: partial
+        path: $/yamobile/banners/partials/_column-photo.htm
+    url:
+        label: url
+        type: text
+    is_enabled:
+        label: is_enabled
+        type: switch
+    created_at:
+        label: created_at
+        type: datetime
+    updated_at:
+        label: updated_at
+        type: datetime
